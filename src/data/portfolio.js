@@ -1,20 +1,23 @@
 export default [
   {
-    title: '/snews',
-    imgUrl: '/assets/snews.png',
-    stack: ['HTML', 'CSS', 'JavaScript'],
-    link: 'https://fkcodes.com',
-  },
-  {
-    title: 'Developer Portfolio',
-    imgUrl: '/assets/snews.png',
+    title: 'Fly Racing',
+    videoPlaceholder: '/assets/fly-racing-placeholder.jpg',
+    videoSrc: '/assets/fly-racing-scroll.mp4',
     stack: ['React', 'Tailwind', 'Vite'],
-    link: 'https://glennbasgaard.com',
+    link: 'https://www.flyracing.com/formula-s/',
   },
   {
-    title: 'Terminal Website',
-    imgUrl: '/assets/snews.png',
+    title: 'Pompeii3',
+    videoPlaceholder: '/assets/highway-21-placeholder.jpg',
+    videoSrc: '/assets/pompeii3-scroll.mp4',
     stack: ['HTML', 'CSS', 'JavaScript'],
-    link: 'https://fkcodes.com',
+    link: 'https://pompeii3.com',
+  },
+  {
+    title: 'Highway 21',
+    videoPlaceholder: '/assets/highway-21-placeholder.jpg',
+    videoSrc: '/assets/highway-21-scroll.mp4',
+    stack: ['HTML', 'CSS', 'JavaScript'],
+    link: 'https://highway21.com',
   },
 ]

@@ -33,7 +33,7 @@ function App() {
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
       viewBox="0 0 24 24"
-      strokeWidth={1.5}
+      strokeWidth={2}
       stroke="currentColor"
       className="w-6 h-6"
     >
@@ -50,7 +50,7 @@ function App() {
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
       viewBox="0 0 24 24"
-      strokeWidth={1.5}
+      strokeWidth={2}
       stroke="white"
       className="w-6 h-6"
     >
@@ -67,11 +67,11 @@ function App() {
       <button
         type="button"
         onClick={handleThemeSwitch}
-        className="fixed p-2 z-10 right-20 top-4 bg-violet-300 dark:bg-orange-300 text-lg p-1 rounded-md"
+        className="fixed p-1 z-10 right-5 top-5 bg-midnight dark:bg-cream text-lg rounded-md"
       >
         {theme === 'dark' ? sun : moon}
       </button>
-      <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
+      <div className="bg-cream dark:bg-midnight text-midnight dark:text-stone-300 min-h-screen font-inter">
         <div className="max-w-5xl w-11/12 mx-auto">
           <Intro />
           <Portfolio />
@@ -84,4 +84,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

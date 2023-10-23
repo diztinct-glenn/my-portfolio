@@ -6,7 +6,11 @@ module.exports = {
     extend: {
       fontFamily: {
         inter: ['inter', 'serif'],
-      }
+      },
+      colors: {
+        'midnight': '#131927',
+        'cream': '#FFFFED',
+      },
     },
   },
   plugins: [],

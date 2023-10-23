@@ -8,7 +8,7 @@ function Contact() {
         <form
           action="https://getform.io/f/5e430a48-a955-4788-a710-bdefc8d52afd"
           method="POST"
-          className="flex flex-col w-full md:w-8/12"
+          className="flex flex-col w-full md:w-9/12"
         >
           <Title>Contact</Title>
           <input
@@ -32,7 +32,7 @@ function Contact() {
           />
           <button
             type="button"
-            className="text-center inline-block px-8 py-3 w-max text-base font-medium round-md text-white bg-gradient-to-r from-yellow-500 to-pink-500 drop-shadow-md hover:stroke-white"
+            className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-cream bg-midnight border border-2 border-midnight hover:text-midnight hover:bg-cream dark:border-cream dark:bg-cream dark:text-midnight drop-shadow-md dark:hover:text-cream dark:hover:bg-midnight"
           >
             Work With Me
           </button>
